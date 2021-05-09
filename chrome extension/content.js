@@ -114,7 +114,7 @@ a = JSON.parse(localStorage.getItem('statusAndStock')) || [];
 // Push the new data (whether it be an object or anything else) onto the array
 a.push(test);
 // Alert the array value
-alert(a);  // Should be something like [Object array]
+//alert(a);  // Should be something like [Object array]
 // Re-serialize the array back into a string and store it in localStorage
 localStorage.setItem('statusAndStock', JSON.stringify(a));
 
