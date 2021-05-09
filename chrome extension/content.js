@@ -43,7 +43,7 @@ let counter=0;
     
 })();
 
-var btn =document.querySelector("#btnRun");
+let btn =document.querySelector("#btnRun");
     
     btn.addEventListener("click", function(){
         openPage();
@@ -108,7 +108,7 @@ localStorage.setItem('statusAndStock', JSON.stringify(a));
 */
  
 
-var a = [];
+let a = [];
 // Parse the serialized data back into an aray of objects
 a = JSON.parse(localStorage.getItem('statusAndStock')) || [];
 // Push the new data (whether it be an object or anything else) onto the array
