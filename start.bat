@@ -1,0 +1,1 @@
+start https://www.etoro.com/portfolio
